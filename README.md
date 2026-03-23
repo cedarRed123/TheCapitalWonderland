@@ -302,11 +302,11 @@ Make sure the file has been placed in `C:\Modlists\WOL\downloads` or wherever yo
 ### The Capital Wasteland
 This is the defualt profile and removes all of the green tint and improves lighting, bringing a fallout 4 style to the capital. This profile adds massive flora overhauls to the game, giving the feeling that forests have regrown in the 200 years since the war.
 
-![GreyandGloomy](GreyandGloomy.webp)
+![GreyandGloomy](images/GreyandGloomy.webp)
 ### The Grey and Gloomy profile
 This profile removes the green tint and improves the lighting, however the flora of DC remains dead to preserve the lore accuracy.
 
-![GreenandGloomy](GreenandGloomy.webp)
+![GreenandGloomy](images/GreenandGloomy.webp)
 ### The Green and Gloomy profile
 Just want improved textures? Keep the green tint and keep the wasteland dead!
 
