@@ -95,6 +95,7 @@ The Capital Wonderland requires a completely clean installation of Fallout 3. Th
 # Installing the game on Steam/GOG
 
 <details>
+<summary>Steam Install Instructions</summary>
 
 ### Installing the game on steam
 
