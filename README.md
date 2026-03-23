@@ -1,4 +1,4 @@
-![TheCapitalWonderland](Images/TheCapitalWonderland.webp)
+![TheCapitalWonderland](images/TheCapitalWonderland.webp)
 
 ---
 
