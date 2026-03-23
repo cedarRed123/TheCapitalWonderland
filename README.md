@@ -186,13 +186,28 @@ Decompresses the vanilla BSA files to reduce loading times and stuttering. Incre
 If they aren't, close the program and re-run the game's launcher to generate the required registry key.
 
 > [!tip]
-> If you intend to install [Tale of Two Wastelands](https://thebestoftimes.moddinglinked.com/) or don't want to verify your game files everytime you need to update the list, you can output the decompressed BSAs to a mod in MO2:
+> If you intend to install [Tale of Two Wastelands](https://thebestoftimes.moddinglinked.com/) or don't want to verify your game files everytime you need to update the list, you can output the decompressed BSAs to a mod in MO2 (Highly reccomended):
 > 1. In MO2 click the ![mo2 open folders menu](images/folders%20menu.webp) button and select `Open Mods folder`.
 > 2. Open the folder called `[NoDelete] Decompressed BSAs` and then copy its path (right click the address bar, and select `Copy address as text`).
 > 3. Close MO2.
 > 4. Paste the path you copied in step 2 into the `Decompressed Archives` text field.
 
 4. Click `Decompress`, wait for the process to finish, then exit out of the program once finished.
+
+## Reshade
+a massive lighting overhaul extension with incredible customizability.
+> 1. download [Reshade](https://reshade.me/#download) into your root directory.
+> 2. if d3d9.dll is present in your root directory, either create a folder to back it up (backup_d3d9 for example)
+> Example: `C:\Fallout 3\Fallout 3\backup_d3d9`
+or delete the vanilla d3d9.
+> 3. run reshade.exe
+> 4. select vulkan (do not select directx or anything else it will not work), then select next
+> 5. when asked to select plugins or effects click "uncheck all", and then at the bottom "choose a preset" click "browse"
+> 6. [download the preset for RADLO](https://www.nexusmods.com/fallout3/mods/24729?tab=files)
+> 7. input the preset and select next
+> 8. click next again, finish
+> 9. open C:\Modlists\TCW\__DXVK
+> 10. drag the two files into your root directory, overwrite if prompted.
 
 ## Mod Organizer 2 Setup
 1. Launch `ModOrganizer.exe` from your `Installation Location` folder.
@@ -231,8 +246,8 @@ If you use an Ultrawide display also follow [these](#ultrawide-support) steps.
 It's required to limit your FPS to `120` or lower as the game can still have issues even with the High FPS Fix. For instructions on how to set up [Rivatuner Statistics Server](https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download/) (if you use MSI Afterburner you may already have this installed), please refer to the [Performance Guide](https://performance.moddinglinked.com/falloutnv.html#RecommendedLimiters). It's written for New Vegas but you can very easily apply it to Fallout 3 by replacing the part where you select `FalloutNV.exe` with selecting `Fallout3.exe`.
 If you use nvidea drivers, the control panel has an fps limitter built in configurable to specific executables.
 
-### DXVK with DXGI
-## if you plan to install reshade (reccomended) skip this section as it will not work correctly. Reshade will be installed with DXVK independently.
+### DXVK with DXGI (ONLY INSTALL IF YOU SKIPPED RESHADE)
+## if you plan to install reshade (reccomended) skip this section as it will not work correctly. The instructions for Reshade will install DXVK independently.
 Highly recommended if you want improved input latency and VRR support.  Version 2.0 of DXVK requires a GPU that supports Vulkan 1.3 - if you have an AMD Radeon RX 400 series GPU or newer (except RX 455 OEM), NVIDIA GeForce 900 series GPU or newer, or Intel HD 510/530 GPU or newer you should be able to use DXVK 2.0 (source: [TechPowerUp GPU Database](https://www.techpowerup.com/gpu-specs/)).
   - To install DXVK, copy the contents of the folder `__DXVK - Latest` into the root folder of the game. If you use a Nvidia GPU you'll also need to follow steps 2-6 under [**Enabling Flip Model (DXVK with DXGI)**](https://performance.moddinglinked.com/falloutnv.html#dxvk-flip).
   - If you have issues with the latest version or your GPU doesn't support Vulkan 1.3 you can try the 1.10.3 version. If you are having issues on an Intel iGPU you can try the 1.10.1 version.
