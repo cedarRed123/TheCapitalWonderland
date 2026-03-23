@@ -5,7 +5,7 @@
 <p align="center">
   <a href="README.md">Installation</a> ·
 <a href="gameplay-guide.md">Gameplay Guide</a> ·
-<a href="TheCapitalWonderland/TheCapitalWonderland/TheCapitalWonderland.md">Preview TCW</a> ·
+<a href="TheCapitalWonderland/TheCapitalWonderland.md">Preview TCW</a> ·
 <a href="x">Preview Grey and gloomy</a> ·
   <a href="x">Preview Green and gloomy</a>
 
