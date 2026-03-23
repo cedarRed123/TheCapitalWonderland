@@ -264,7 +264,7 @@ It's required to limit your FPS to `120` or lower as the game can still have iss
 If you use nvidea drivers, the control panel has an fps limitter built in configurable to specific executables.
 
 ### DXVK with DXGI (ONLY INSTALL IF YOU SKIPPED RESHADE)
-## if you plan to install reshade (reccomended) skip to [Updating the List](#Updating-the-List) section as it will not work correctly. The instructions for Reshade will install DXVK independently.
+## if you plan to install reshade (reccomended) skip to [Updating the List](#Launching-the-Game) section as it will not work correctly. The instructions for Reshade will install DXVK independently.
 Highly recommended if you want improved input latency and VRR support.  Version 2.0 of DXVK requires a GPU that supports Vulkan 1.3 - if you have an AMD Radeon RX 400 series GPU or newer (except RX 455 OEM), NVIDIA GeForce 900 series GPU or newer, or Intel HD 510/530 GPU or newer you should be able to use DXVK 2.0 [source](https://www.techpowerup.com/gpu-specs/)).
   - To install DXVK, copy the contents of the folder `__DXVK - Latest` into the root folder of the game. If you use a Nvidia GPU you'll also need to follow steps 2-6 under [**Enabling Flip Model (DXVK with DXGI)**](https://performance.moddinglinked.com/falloutnv.html#dxvk-flip).
   - If you have issues with the latest version or your GPU doesn't support Vulkan 1.3 you can try the 1.10.3 version. If you are having issues on an Intel iGPU you can try the 1.10.1 version.
