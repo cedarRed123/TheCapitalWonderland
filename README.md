@@ -215,7 +215,10 @@ or delete the vanilla d3d9.
 9. open C:\Modlists\TCW\__DXVK
 10. copy the contents of the folder `__DXVK` into the root folder of the game. If you are prompted to overwrite a file, select yes.
 
-# Nvidia GPU you'll also need to following
+Nvidia GPU users you'll also need to following, others can skip
+
+> enable the flip model
+> 
 > 1. Download the [premade Nvidia Driver Profile](https://performance.moddinglinked.com/files/FO-NvidiaProfile.nip) for Fallout New Vegas and Fallout 3. 
 > 2. Download [Nvidia Profile Inspector](https://github.com/Orbmu2k/nvidiaProfileInspector/releases/latest).
 > Extract the archive and run the program.
