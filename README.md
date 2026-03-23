@@ -1,5 +1,5 @@
 ![TheCapitalWonderland](images/TheCapitalWonderland.webp)
-
+# thank you to everyone checking this out! I've finalized the install instructions, I just need to upload the mod list now. Check back soon!
 ---
 
 <p align="center">
@@ -298,12 +298,15 @@ Make sure the file has been placed in `C:\Modlists\WOL\downloads` or wherever yo
 - Enable `bUltrawideSupport` in the mod `Stewie Tweaks Essentials INI` (or whatever Stewies Tweaks INI is active for the current profile since there are a handful of them to account for some profiles not having Iron Sights Plus).
 
 ## Mod Profiles
+
 ### The Capital Wasteland
 This is the defualt profile and removes all of the green tint and improves lighting, bringing a fallout 4 style to the capital. This profile adds massive flora overhauls to the game, giving the feeling that forests have regrown in the 200 years since the war.
 
-### The Gray and Gloomy profile
+![GreyandGloomy](GreyandGloomy.webp)
+### The Grey and Gloomy profile
 This profile removes the green tint and improves the lighting, however the flora of DC remains dead to preserve the lore accuracy.
 
+![GreenandGloomy](GreenandGloomy.webp)
 ### The Green and Gloomy profile
 Just want improved textures? Keep the green tint and keep the wasteland dead!
 
