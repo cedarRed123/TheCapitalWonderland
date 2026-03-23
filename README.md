@@ -24,10 +24,11 @@
 - [Credits](#credits)
 
 # Introduction
-Waters of Life is a lightweight vanilla plus Wabbajack mod list for Fallout 3. It features essential vanilla bug fixes, performance optimizations, restored cut content, and a few gameplay features you might be used to from more modern games. If you want an easy to install modlist that doesn't stray too far from vanilla, look no further!
+The Capital Wonderland is a lightweight vanilla plus Wabbajack mod list for Fallout 3. It features essential vanilla bug fixes, performance optimizations, restored cut content, and a few gameplay features you might be used to from more modern games, aswell as an emphasis on modernized graphics. If you want an easy to install modlist that doesn't stray too far from vanilla, look no further!
 
 ## List Contents
-You can look [here](https://www.wabbajack.org/search/zpoke/watersoflife) or [here (currently outdated)](https://loadorderlibrary.com/lists/waters-of-life-4) if you're curious about what mods are included.
+Authors note ** replace the links here once done
+You can look [here](https://www.wabbajack.org/search/zpoke/watersoflife)
 
 ## Requirements
 - An **English** copy of the game with the all of the DLCs from [Steam](https://store.steampowered.com/app/22370/Fallout_3_Game_of_the_Year_Edition/) or [GOG](https://www.gog.com/en/game/fallout_3_game_of_the_year_edition).
@@ -36,13 +37,13 @@ You can look [here](https://www.wabbajack.org/search/zpoke/watersoflife) or [her
 > The GOG version is recommended due to minor issues with the Steam version of the game. Steps are provided for potential solutions.
 - Windows 10 or higher (64 bit).
 - A text editor ([Notepad++](https://notepad-plus-plus.org/) is recommended but the default Windows notepad will work).
-- An archiving tool ([Nanazip](https://apps.microsoft.com/store/detail/nanazip/9N8G7TSCL18R?hl=en-us&gl=us) is recommended).
+- An archiving tool ([7zip](https://7-zip.org/download.html) is recommended).
 - The latest GPU drivers (either [NVIDIA](https://www.nvidia.com/Download/index.aspx), [AMD](https://www.amd.com/en/support) or [Intel](https://www.intel.com/content/www/us/en/search.html#q=&sort=relevancy&f:@tabfilter=[Downloads]&f:@stm_10385_en=[Graphics])).
 - The latest release of [Wabbajack](https://github.com/wabbajack-tools/wabbajack/releases/latest/download/Wabbajack.exe).
 - A [Nexus Mods](https://users.nexusmods.com/register) account (Premium is recommended for uncapped download speeds and fully automated modlist installation).
 
 ## Recommended Specs
-I don't really know exact specs but if your PC can easily run the game at 1080p max settings at 60+ FPS, you can probably run this list just fine.
+I hover around 70 fps on my 4050 laptop gpu
 
 # Setup
 ## Preparation
@@ -60,7 +61,7 @@ winget install Microsoft.VCRedist.2005.x64 Microsoft.VCRedist.2005.x86 Microsoft
 ```
 2. Restart your PC.
 > [!tip]
-> If you don't want to use the terminal you can also use this [script](https://github.com/zpok3/vc-redists-install-script/releases/latest) I made that just runs the aforementioned command. Download the `.bat` file and run it as an administrator.
+> If you don't want to use the terminal you can also use this [script](https://github.com/zpok3/vc-redists-install-script/releases/latest) Zpok3 made that just runs the aforementioned command. Download the `.bat` file and run it as an administrator.
 
 ### Enabling file extensions
 
@@ -88,23 +89,13 @@ If you don't want to change the global setting, you can add an exception just fo
 > 7. Check `Override system settings`, and set the toggle to `Off`.
 
 ## Clean Installation
-Waters of Life requires a completely clean installation of Fallout 3. This means completely deleting both the game folder and all INI files located in `Documents\My Games\Fallout3` then reinstalling the game through Steam/GOG. The game MUST be installed outside of any default Windows folders, such as `Program Files (x86)`, `Program Files`, your `Desktop`, or `Documents`. Additionally, it is recommended to install the game on an SSD if possible to improve load times and decrease stuttering.
+The Capital Wonderland requires a completely clean installation of Fallout 3. This means completely deleting both the game folder and all INI files located in `Documents\My Games\Fallout3` then reinstalling the game through Steam/GOG. The game MUST be installed outside of any default Windows folders, such as `Program Files (x86)`, `Program Files`, your `Desktop`, or `Documents`. I reccomend installing it to C:/Fo3/install-here. Additionally, it is recommended to install the game on an SSD if possible to improve load times and decrease stuttering.
 
+## DO NOT INSTALL TO PROGRAM FILES OR PROGRAM FIELS 86 IT WILL NOT WORK
+# Installing the game on Steam/GOG
 <details>
 <summary>Steam Install Instructions</summary>
-
-> The following instructions are only for anyone who has Steam installed in `Program Files (x86)` AND only have a single drive installed as Steam only allows one library folder per drive.
->
-> Skip to step 1 of [Installing the game](#installing-the-game) if you have Steam installed outside of `Program Files (x86)` or have a separate drive to install games to.
-
-1. Completely exit out of Steam using Task Manager or System Tray.
-2. Download `steam_library_setup_tool-3.2.exe` from [here](https://github.com/LostDragonist/steam-library-setup-tool/releases/download/3.2/steam_library_setup_tool-3.2.exe).
-3. Run the file and click `Add Row` to add a new entry.
-4. Type the chosen path under `Path`, e.g. `C:\Games\SteamLibrary`.
-5. Click `Accept` and then `Yes` if prompted to create a new folder.
-6. Click `OK` when the tool asks to exit.
-
-### Installing the game
+### Installing the game on steam
 1. Open Steam and go to your `Library`.
 2. Find Fallout 3 in the list and click `Install`.
 3. Under `Install to:`, select a library folder of your choice that is outside of any default Windows folders. If you created a custom Steam Library earlier, it will be the second **(C:)** entry.
