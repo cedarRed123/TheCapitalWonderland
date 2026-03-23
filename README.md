@@ -1,4 +1,4 @@
-![TheCapitalWonderland](images/waters%20of%20life%20wj%20image.webp)
+![TheCapitalWonderland](images/TheCapitalWonderland.png)
 
 ---
 
