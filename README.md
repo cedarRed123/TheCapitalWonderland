@@ -89,16 +89,20 @@ If you don't want to change the global setting, you can add an exception just fo
 > 7. Check `Override system settings`, and set the toggle to `Off`.
 
 ## Clean Installation
-The Capital Wonderland requires a completely clean installation of Fallout 3. This means completely deleting both the game folder and all INI files located in `Documents\My Games\Fallout3` then reinstalling the game through Steam/GOG. The game MUST be installed outside of any default Windows folders, such as `Program Files (x86)`, `Program Files`, your `Desktop`, or `Documents`. I reccomend installing it to C:/Fo3/install-here. Additionally, it is recommended to install the game on an SSD if possible to improve load times and decrease stuttering.
+The Capital Wonderland requires a completely clean installation of Fallout 3. This means completely deleting both the game folder and all INI files located in `Documents\My Games\Fallout3` then reinstalling the game through Steam/GOG. The game MUST be installed outside of any default Windows folders, such as `Program Files (x86)`, `Program Files`, your `Desktop`, or `Documents`. I reccomend installing it to C:/Fallout 3/install-here. Additionally, it is recommended to install the game on an SSD if possible to improve load times and decrease stuttering.
 
 ## DO NOT INSTALL TO PROGRAM FILES OR PROGRAM FILES (x86) IT WILL NOT WORK
 # Installing the game on Steam/GOG
+
 <details>
 <summary>Steam Install Instructions</summary>
+  
 > The following instructions are only for anyone who has Steam installed in `Program Files (x86)` AND only have a single drive installed as Steam only allows one library folder per drive.
 >
 > Skip to step 1 of [Installing the game](#installing-the-game) if you have Steam installed outside of `Program Files (x86)` or have a separate drive to install games to.
+
 ### Installing the game on steam
+
 1. Open Steam and go to your `Library`.
 2. Find Fallout 3 in the list and click `Install`.
 3. Under `Install to:`, select a library folder of your choice that is outside of any default Windows folders.
