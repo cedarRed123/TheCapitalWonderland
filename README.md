@@ -202,21 +202,29 @@ a massive lighting overhaul extension with incredible customizability.
 1. download [Reshade](https://reshade.me/#download) into your root directory.
 2. if d3d9.dll is present in your root directory, either create a folder to back it up (backup_d3d9 for example)
 
-<details>
-
 > Example: `C:\Fallout 3\Fallout 3\backup_d3d9`
 
-</details>
-
 or delete the vanilla d3d9.
+
 3. run reshade.exe
 4. select vulkan (do not select directx or anything else it will not work), then select next
 5. when asked to select plugins or effects click "uncheck all", and then at the bottom "choose a preset" click "browse"
-> 6. [download the preset for RADLO](https://www.nexusmods.com/fallout3/mods/24729?tab=files)
-> 7. input the preset and select next
-> 8. click next again, finish
-> 9. open C:\Modlists\TCW\__DXVK
-> 10. drag the two files into your root directory, overwrite if prompted.
+6. [download the preset for RADLO](https://www.nexusmods.com/fallout3/mods/24729?tab=files)
+7. input the preset and select next
+8. click next again, finish
+9. open C:\Modlists\TCW\__DXVK
+10. copy the contents of the folder `__DXVK` into the root folder of the game. If you use a 
+
+> Nvidia GPU you'll also need to following
+> 1. Download the [premade Nvidia Driver Profile](https://performance.moddinglinked.com/files/FO-NvidiaProfile.nip) for Fallout New Vegas and Fallout 3. 
+> 2. Download [Nvidia Profile Inspector](https://github.com/Orbmu2k/nvidiaProfileInspector/releases/latest).
+> Extract the archive and run the program.
+> Click on the Import user defined profiles button (green arrow pointing down), then Import profiles and select the FO-NvidiaProfile.nip file.
+> Nvidia resets those settings on driver updates! Make sure to reapply them after updating.
+Thanks Nvidia!
+> 3. Click Apply changes in the top right and exit. 
+  - If you have issues with the latest version or your GPU doesn't support Vulkan 1.3 you can try the 1.10.3 version. If you are having issues on an Intel iGPU you can try the 1.10.1 version.
+For more information on DXVK, VRR, HDR, and Alt-Tabbing, please refer to the [Performance Guide](https://performance.moddinglinked.com/falloutnv.html). 
 
 ## Mod Organizer 2 Setup
 1. Launch `ModOrganizer.exe` from your `Installation Location` folder.
@@ -256,8 +264,8 @@ It's required to limit your FPS to `120` or lower as the game can still have iss
 If you use nvidea drivers, the control panel has an fps limitter built in configurable to specific executables.
 
 ### DXVK with DXGI (ONLY INSTALL IF YOU SKIPPED RESHADE)
-## if you plan to install reshade (reccomended) skip this section as it will not work correctly. The instructions for Reshade will install DXVK independently.
-Highly recommended if you want improved input latency and VRR support.  Version 2.0 of DXVK requires a GPU that supports Vulkan 1.3 - if you have an AMD Radeon RX 400 series GPU or newer (except RX 455 OEM), NVIDIA GeForce 900 series GPU or newer, or Intel HD 510/530 GPU or newer you should be able to use DXVK 2.0 (source: [TechPowerUp GPU Database](https://www.techpowerup.com/gpu-specs/)).
+## if you plan to install reshade (reccomended) skip to [Updating the List](#Updating-the-List) section as it will not work correctly. The instructions for Reshade will install DXVK independently.
+Highly recommended if you want improved input latency and VRR support.  Version 2.0 of DXVK requires a GPU that supports Vulkan 1.3 - if you have an AMD Radeon RX 400 series GPU or newer (except RX 455 OEM), NVIDIA GeForce 900 series GPU or newer, or Intel HD 510/530 GPU or newer you should be able to use DXVK 2.0 [source](https://www.techpowerup.com/gpu-specs/)).
   - To install DXVK, copy the contents of the folder `__DXVK - Latest` into the root folder of the game. If you use a Nvidia GPU you'll also need to follow steps 2-6 under [**Enabling Flip Model (DXVK with DXGI)**](https://performance.moddinglinked.com/falloutnv.html#dxvk-flip).
   - If you have issues with the latest version or your GPU doesn't support Vulkan 1.3 you can try the 1.10.3 version. If you are having issues on an Intel iGPU you can try the 1.10.1 version.
 For more information on DXVK, VRR, HDR, and Alt-Tabbing, please refer to the [Performance Guide](https://performance.moddinglinked.com/falloutnv.html). 
