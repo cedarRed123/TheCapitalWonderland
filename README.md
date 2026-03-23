@@ -213,9 +213,9 @@ or delete the vanilla d3d9.
 7. input the preset and select next
 8. click next again, finish
 9. open C:\Modlists\TCW\__DXVK
-10. copy the contents of the folder `__DXVK` into the root folder of the game. If you use a 
+10. copy the contents of the folder `__DXVK` into the root folder of the game. If you are prompted to overwrite a file, select yes.
 
-> Nvidia GPU you'll also need to following
+# Nvidia GPU you'll also need to following
 > 1. Download the [premade Nvidia Driver Profile](https://performance.moddinglinked.com/files/FO-NvidiaProfile.nip) for Fallout New Vegas and Fallout 3. 
 > 2. Download [Nvidia Profile Inspector](https://github.com/Orbmu2k/nvidiaProfileInspector/releases/latest).
 > Extract the archive and run the program.
@@ -328,6 +328,8 @@ If you had to reset your INIs to get the game to start, these are a few settings
 - Scroll down and enable `General Subtitles`. Alternatively, open MO2's INI editor, select `falloutprefs.ini`, find `bGeneralSubtitles` and enable it (replace 0 with 1).
 
 # Credits
+[zpok3](https://github.com/zpok3) This modpack heavily relies on the work of zpok3 please support his release aswell
+
 [Qolore7](https://github.com/Qolore7) for some of the more obscure mods that I found via his Wabbajack list Lost Liberty.
 
 [Ungeziefi](https://github.com/Ungeziefi) and [Wall SoGB](https://github.com/WallSoGB) for the resources available at [ModdingLinked](https://moddinglinked.com/index.html).
