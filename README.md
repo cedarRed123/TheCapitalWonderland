@@ -5,6 +5,9 @@
 <p align="center">
   <a href="README.md">Installation</a> ·
 <a href="gameplay-guide.md">Gameplay Guide</a>
+<a href="TheCapitalWonderland.md">Preview TCW</a>
+<a href="">Preview Grey and gloomy</a>
+  <a href="">Preview Green and gloomy</a>
 
    ---
 # Read-Me
