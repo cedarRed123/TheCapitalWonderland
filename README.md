@@ -266,9 +266,22 @@ If you use nvidea drivers, the control panel has an fps limitter built in config
 ### DXVK with DXGI (ONLY INSTALL IF YOU SKIPPED RESHADE)
 ## if you plan to install reshade (reccomended) skip to [Launching the Game](#Launching-the-Game) section as it will not work correctly. The instructions for Reshade will install DXVK independently.
 Highly recommended if you want improved input latency and VRR support.  Version 2.0 of DXVK requires a GPU that supports Vulkan 1.3 - if you have an AMD Radeon RX 400 series GPU or newer (except RX 455 OEM), NVIDIA GeForce 900 series GPU or newer, or Intel HD 510/530 GPU or newer you should be able to use DXVK 2.0 [source](https://www.techpowerup.com/gpu-specs/)).
-  - To install DXVK, copy the contents of the folder `__DXVK - Latest` into the root folder of the game. If you use a Nvidia GPU you'll also need to follow steps 2-6 under [**Enabling Flip Model (DXVK with DXGI)**](https://performance.moddinglinked.com/falloutnv.html#dxvk-flip).
+  - To install DXVK, copy the contents of the folder `__DXVK - Latest` into the root folder of the game. 
+  
+  Nvidia GPU users you'll also need to following, others can skip
+
+> enable the flip model
+> 
+> 1. Download the [premade Nvidia Driver Profile](https://performance.moddinglinked.com/files/FO-NvidiaProfile.nip) for Fallout New Vegas and Fallout 3. 
+> 2. Download [Nvidia Profile Inspector](https://github.com/Orbmu2k/nvidiaProfileInspector/releases/latest).
+> Extract the archive and run the program.
+> Click on the Import user defined profiles button (green arrow pointing down), then Import profiles and select the FO-NvidiaProfile.nip file.
+> Nvidia resets those settings on driver updates! Make sure to reapply them after updating.
+Thanks Nvidia!
+> 3. Click Apply changes in the top right and exit. 
   - If you have issues with the latest version or your GPU doesn't support Vulkan 1.3 you can try the 1.10.3 version. If you are having issues on an Intel iGPU you can try the 1.10.1 version.
 For more information on DXVK, VRR, HDR, and Alt-Tabbing, please refer to the [Performance Guide](https://performance.moddinglinked.com/falloutnv.html). 
+
 
 ## Launching the Game
 1. Make sure the dropdown box on the right is set to `Fallout 3` and press the Run button.
