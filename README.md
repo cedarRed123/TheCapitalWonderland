@@ -98,7 +98,7 @@ The Capital Wonderland requires a completely clean installation of Fallout 3. Th
 ### Installing the game on steam
 1. Open Steam and go to your `Library`.
 2. Find Fallout 3 in the list and click `Install`.
-3. Under `Install to:`, select a library folder of your choice that is outside of any default Windows folders. If you created a custom Steam Library earlier, it will be the second **(C:)** entry.
+3. Under `Install to:`, select a library folder of your choice that is outside of any default Windows folders.
 4. Select `Next` and wait for the install to finish.
 
 </details>
@@ -133,16 +133,16 @@ Start the game and exit once you're at the main menu. This will ensure any setti
 > Example: `C:\Modding\Wabbajack`
 
 2. Place the downloaded Wabbajack.exe in this folder and run it.
-3. Select `Browse Modlists`, check the `Non-featured` box and set the game to `Fallout 3`. Then select Waters of Life and click `Download and Install`.
+3. Select `Browse Modlists`, check the `Non-featured` box and set the game to `Fallout 3`. Then select The Capital Wasteland and click `Download and Install`.
 4. In `Installation Location`, select a folder that is not:
   * The Steam folder,
   * Any default Windows folders,
   * The Game folder,
   * The folder where you put Wabbajack.exe.
 
-> Example: `C:\Modding\Waters of Life`
+> Example: `C:\Modding\The Capital Wasteland`
 >
-> Note: The default location `C:\Modlists\WOL` that is suggested by Wabbajack 4.0.0.0+ should work just fine.
+> Note: The default location `C:\Modlists\TCW` that is suggested by Wabbajack 4.0.0.0+ should work just fine.
 
 5. Click `Install` to begin the installation.
 6. Accept the Nexus Mods API request.
@@ -204,7 +204,7 @@ If they aren't, close the program and re-run the game's launcher to generate the
 > Something I completely forgot about is that for some time the modlist did not include a `ModOrganizer.ini`, meaning the end user would have to go through instance creation when they first start MO2. This may have masked issues related to a mismatched Steam App ID for users who have the base game + all DLC purchased separately instead of the GOTY edition. To fix this (if it applies to you), in MO2 go to `Settings -> Workarounds` and change the Steam App ID to `22300`. For good measure press `Ctrl + E`, and under Fallout 3 check `Overwrite Steam AppID` and add `22300` there too.
 
 ## Game Settings
-There are four profiles you can choose from; the default profile, the Classic profile, the Essentials profile, and the Essentials Plus profile. Since the INI files are profile specific, you must use the drop-down menu on the top of your modlist in MO2 to select the profile you would like to configure settings for.
+There are three profiles you can choose from; the default profile, Gray and Gloomy profile, and the Green and Gloomy profile. Since the INI files are profile specific, you must use the drop-down menu on the top of your modlist in MO2 to select the profile you would like to configure settings for.
 1. Open the game launcher using the `Fallout Launcher` option in MO2. You may need to add it manually if you have the Steam version of the game by clicking `<Edit...>` from the executables dropdown menu, selecting the + icon and choosing `Add from file...`.
 > [!important]
 > If you use Steam, the game may not start when you try to run it through MO2. The problem may have something to do with the [updated launcher](https://store.steampowered.com/news/app/22370/view/4160842270244401930?l=english). To fix this you can try resetting your INIs by clicking the ![mo2 folders menu](images/folders%20menu.webp) button, selecting `Open Profile folder`, and deleting `fallout.ini` and `falloutprefs.ini`. Then refresh MO2 by pressing `F5` and follow [these](#ini-settings) steps to configure some settings that will have been reset by this process. Or you can follow this [guide](https://github.com/zpok3/Waters-of-Life/blob/main/steam-downgrading-guide.md) to downgrade the game (might not work from user reports I've seen).
@@ -212,7 +212,7 @@ There are four profiles you can choose from; the default profile, the Classic pr
     1. Select `Ultra` preset.
 * If you have a very weak PC, you can select the `Medium` preset instead.
 
-  2. Set `Resolution` to your monitor's native resolution.
+  2. Set `Resolution` to your monitor's native resolution. (some high resolutions require manually setting this in the .ini files)
 * If you can't find the right resolution in the launcher's list, do the following:
     
     1. Close the launcher.
@@ -228,8 +228,11 @@ If you use an Ultrawide display also follow [these](#ultrawide-support) steps.
 
 ## Performance Guide
 ### FPS Limiting
-It's recommended  to limit your FPS to `120` or lower as the game can still have issues even with the High FPS Fix. For instructions on how to set up [Rivatuner Statistics Server](https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download/) (if you use MSI Afterburner you may already have this installed), please refer to the [Performance Guide](https://performance.moddinglinked.com/falloutnv.html#RecommendedLimiters). It's written for New Vegas but you can very easily apply it to Fallout 3 by replacing the part where you select `FalloutNV.exe` with selecting `Fallout3.exe`.
+It's required to limit your FPS to `120` or lower as the game can still have issues even with the High FPS Fix. For instructions on how to set up [Rivatuner Statistics Server](https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download/) (if you use MSI Afterburner you may already have this installed), please refer to the [Performance Guide](https://performance.moddinglinked.com/falloutnv.html#RecommendedLimiters). It's written for New Vegas but you can very easily apply it to Fallout 3 by replacing the part where you select `FalloutNV.exe` with selecting `Fallout3.exe`.
+If you use nvidea drivers, the control panel has an fps limitter built in configurable to specific executables.
+
 ### DXVK with DXGI
+## if you plan to install reshade (reccomended) skip this section as it will not work correctly. Reshade will be installed with DXVK independently.
 Highly recommended if you want improved input latency and VRR support.  Version 2.0 of DXVK requires a GPU that supports Vulkan 1.3 - if you have an AMD Radeon RX 400 series GPU or newer (except RX 455 OEM), NVIDIA GeForce 900 series GPU or newer, or Intel HD 510/530 GPU or newer you should be able to use DXVK 2.0 (source: [TechPowerUp GPU Database](https://www.techpowerup.com/gpu-specs/)).
   - To install DXVK, copy the contents of the folder `__DXVK - Latest` into the root folder of the game. If you use a Nvidia GPU you'll also need to follow steps 2-6 under [**Enabling Flip Model (DXVK with DXGI)**](https://performance.moddinglinked.com/falloutnv.html#dxvk-flip).
   - If you have issues with the latest version or your GPU doesn't support Vulkan 1.3 you can try the 1.10.3 version. If you are having issues on an Intel iGPU you can try the 1.10.1 version.
@@ -244,7 +247,7 @@ For more information on DXVK, VRR, HDR, and Alt-Tabbing, please refer to the [Pe
 2. You're all set! Everything is already configured by default so you can hop right into a new game!
 
 # Updating the List
-
+# be careful not to do this unless you mean to hard reset.
 1. **Verify files** on **Steam** or **GOG Galaxy** (only if you output your decompressed BSAs directly into your game's `Data` folder, otherwise skip to step 3).
 2. Redo the [Root Mods](#root-mods) step of [Post Installation](#post-installation) and optionally the [BSA Decompressor](#bsa-decompressor) (unless you installed it as a mod in MO2).
 3. If you added any mods you added after installation, add the [NoDelete] prefix to their name in the left pane.
@@ -263,23 +266,22 @@ Make sure the file has been placed in `C:\Modlists\WOL\downloads` or wherever yo
 - Enable `bUltrawideSupport` in the mod `Stewie Tweaks Essentials INI` (or whatever Stewies Tweaks INI is active for the current profile since there are a handful of them to account for some profiles not having Iron Sights Plus).
 
 ## Mod Profiles
-### Author's Addons Profile
-Same as the default profile but with some personal picks that don't really fit the vanilla plus nature of the list. Currently the additional mods available are Zeta Enable Somah Paulson, Lauren's Bathroom Poetry, and Vault Girl Bobbleheads.
+### The Capital Wasteland
+This is the defualt profile and removes all of the green tint and improves lighting, bringing a fallout 4 style to the capital. This profile adds massive flora overhauls to the game, giving the feeling that forests have regrown in the 200 years since the war.
 
-### Classic Profile
-Same as the default profile but uses Enhanced Night Sky, krzymar HI-RES Moon, Alternative Megaton Lighting Plus, and Clarity instead of Enhanced Vanilla Stars, Accurate NASA Stars, HD NASA Moon, Atmospheric Lighting Tweaks, Megaton Illuminated, and True Weathers.
+### The Gray and Gloomy profile
+This profile removes the green tint and improves the lighting, however the flora of DC remains dead to preserve the lore accuracy.
 
-### Essentials Profile
-Just the Utilities and Bug Fixes from the [FO3 Mod Guide](https://thebestoftimes.moddinglinked.com/fo3.html) written by ModdingLinked.
+### The Green and Gloomy profile
+Just want improved textures? Keep the green tint and keep the wasteland dead!
 
-### Essentials Plus Profile
-The full version of the FO3 Mod Guide written by ModdingLinked.
+### misc
 
 ## The game crashes when I use a Stimpak on a temporary companion!
 Update Companion Wheel (FOSE) to version 2.0, the wheel was never supposed to work on temporary companions as they don't have the necessary dialogue topics. The new version has additional checks to make sure the wheel doesn't appear on temporary companions.
 
 ## Three Dog is dead!
-I've made a [mod](https://www.nexusmods.com/fallout3/mods/26967) that "fixes" the issue, just install it in MO2 and load a save from before you entered GNR Studios, or if you don't have one then open the console and use `resurrect` on Three Dog.
+zpok3 made a [mod](https://www.nexusmods.com/fallout3/mods/26967) that "fixes" the issue, just install it in MO2 and load a save from before you entered GNR Studios, or if you don't have one then open the console and use `resurrect` on Three Dog.
 
 ## INI Settings
 If you had to reset your INIs to get the game to start, these are a few settings that will be reset that you must reapply.
