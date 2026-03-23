@@ -95,11 +95,6 @@ The Capital Wonderland requires a completely clean installation of Fallout 3. Th
 # Installing the game on Steam/GOG
 
 <details>
-<summary>Steam Install Instructions</summary>
-  
-> The following instructions are only for anyone who has Steam installed in `Program Files (x86)` AND only have a single drive installed as Steam only allows one library folder per drive.
->
-> Skip to step 1 of [Installing the game](#installing-the-game) if you have Steam installed outside of `Program Files (x86)` or have a separate drive to install games to.
 
 ### Installing the game on steam
 
@@ -203,13 +198,19 @@ If they aren't, close the program and re-run the game's launcher to generate the
 
 ## Reshade
 a massive lighting overhaul extension with incredible customizability.
-> 1. download [Reshade](https://reshade.me/#download) into your root directory.
-> 2. if d3d9.dll is present in your root directory, either create a folder to back it up (backup_d3d9 for example)
+1. download [Reshade](https://reshade.me/#download) into your root directory.
+2. if d3d9.dll is present in your root directory, either create a folder to back it up (backup_d3d9 for example)
+
+<details>
+
 > Example: `C:\Fallout 3\Fallout 3\backup_d3d9`
+
+</details>
+
 or delete the vanilla d3d9.
-> 3. run reshade.exe
-> 4. select vulkan (do not select directx or anything else it will not work), then select next
-> 5. when asked to select plugins or effects click "uncheck all", and then at the bottom "choose a preset" click "browse"
+3. run reshade.exe
+4. select vulkan (do not select directx or anything else it will not work), then select next
+5. when asked to select plugins or effects click "uncheck all", and then at the bottom "choose a preset" click "browse"
 > 6. [download the preset for RADLO](https://www.nexusmods.com/fallout3/mods/24729?tab=files)
 > 7. input the preset and select next
 > 8. click next again, finish
