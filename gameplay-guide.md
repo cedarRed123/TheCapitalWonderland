@@ -19,7 +19,7 @@ This page lists some notable changes you should be aware of when playing Fallout
 ## Fallout 3 Ending Restored
 - Restores the original ending of the game where the Lone Wanderer dies if they choose to activate the Purifier themselves.
 
-## Fugacity
+## Fugacity (disabled by defualt)
 - Difficulty overhaul akin to the JSawyer mod for New Vegas. Important to note the player character has reduced health, carry weight and starting S.P.E.C.I.A.L points (As of version 1.2.0 of this list, starting S.P.E.C.I.A.L points have been reverted back to vanilla with a custom plugin for the guide).
 
 ## The GoodBad Touch
