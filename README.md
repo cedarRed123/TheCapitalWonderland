@@ -95,6 +95,9 @@ The Capital Wonderland requires a completely clean installation of Fallout 3. Th
 # Installing the game on Steam/GOG
 <details>
 <summary>Steam Install Instructions</summary>
+> The following instructions are only for anyone who has Steam installed in `Program Files (x86)` AND only have a single drive installed as Steam only allows one library folder per drive.
+>
+> Skip to step 1 of [Installing the game](#installing-the-game) if you have Steam installed outside of `Program Files (x86)` or have a separate drive to install games to.
 ### Installing the game on steam
 1. Open Steam and go to your `Library`.
 2. Find Fallout 3 in the list and click `Install`.
