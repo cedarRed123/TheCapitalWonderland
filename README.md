@@ -91,7 +91,7 @@ If you don't want to change the global setting, you can add an exception just fo
 ## Clean Installation
 The Capital Wonderland requires a completely clean installation of Fallout 3. This means completely deleting both the game folder and all INI files located in `Documents\My Games\Fallout3` then reinstalling the game through Steam/GOG. The game MUST be installed outside of any default Windows folders, such as `Program Files (x86)`, `Program Files`, your `Desktop`, or `Documents`. I reccomend installing it to C:/Fo3/install-here. Additionally, it is recommended to install the game on an SSD if possible to improve load times and decrease stuttering.
 
-## DO NOT INSTALL TO PROGRAM FILES OR PROGRAM FIELS 86 IT WILL NOT WORK
+## DO NOT INSTALL TO PROGRAM FILES OR PROGRAM FILES (x86) IT WILL NOT WORK
 # Installing the game on Steam/GOG
 <details>
 <summary>Steam Install Instructions</summary>
